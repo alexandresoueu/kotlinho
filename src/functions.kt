@@ -9,7 +9,7 @@ fun hello(name: String) : String {
 
 fun shortBonus(a: Int, b: Int) = a + b
 
-fun shortHello(name: String) = "Welcome to the ${name}"
+fun shortHello(name: String) = "Welcome to the $name"
 
 fun main() {
     val a = 10
