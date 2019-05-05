@@ -11,17 +11,13 @@ fun shortOfAge(age: Int): Boolean = age >= 18
 
 fun calculateBonus(office: String, salary: Float): Float {
 
-    val salaryBonus: Float
-
-    if (office == "Developer") {
-       salaryBonus = salary * 1.2f
+    return if (office == "Developer") {
+       salary * 1.2f
     } else if (office == "Analyst") {
-        salaryBonus = salary * 0.5f
+        salary * 0.5f
     } else {
-      salaryBonus = salary * 2
+      salary * 2
     }
-
-    return salaryBonus
 }
 
 fun main() {
@@ -35,5 +31,15 @@ fun main() {
     println("Salarinho com Bonus Developer Bonus " + calculateBonus("Developer", 1000f))
     println("Salarinho com Bonus Analyst Bonus " + calculateBonus("Analyst", 1000f))
     println("Salarinho com Bonus Young " + calculateBonus("Young", 1000f))
+
+    println("==============================")
+
+    val value = 10
+    //Ternary at JAVA --  String str = value == 10 ? "Yes" : "No"
+
+    val str = if (value == 10) "Yes" else "No"
+    println(str)
+
+
 
 }
