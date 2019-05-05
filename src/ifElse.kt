@@ -40,6 +40,14 @@ fun main() {
     val str = if (value == 10) "Yes" else "No"
     println(str)
 
+    val elvisInt: Int? = null
+    val operator: Int = elvisInt ?: 100
 
+    println(operator)
+
+    val elvisString: String? = null
+    val operatorString: String = elvisString?: "String Elvis"
+
+    println(operatorString)
 
 }
