@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8b2fbc-88dd-4144-b9fb-95d65d2d797e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/moreAboutParameters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nParams.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlinho/META-INF/kotlinho.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlinho/META-INF/kotlinho.kotlin_module" afterDir="false" />
     </list>
@@ -19,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/moreAboutParameters.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nParams.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -55,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/src/debbugExample.kt" />
         <option value="$PROJECT_DIR$/src/moreAboutParameters.kt" />
+        <option value="$PROJECT_DIR$/src/nParams.kt" />
       </list>
     </option>
   </component>
@@ -132,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MoreAboutParametersKt">
+  <component name="RunManager" selected="Kotlin.NParamsKt">
     <configuration name="DebbugExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinho" />
       <option name="VM_PARAMETERS" />
@@ -172,6 +181,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NParamsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlinho" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="NParamsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NullSafeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinho" />
       <option name="VM_PARAMETERS" />
@@ -185,26 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValuesConvertExceptionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlinho" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ValuesConvertExceptionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NParamsKt" />
         <item itemvalue="Kotlin.MoreAboutParametersKt" />
         <item itemvalue="Kotlin.DebbugExampleKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.NullSafeKt" />
-        <item itemvalue="Kotlin.ValuesConvertExceptionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +241,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="-4" width="1333" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49864498" visible="true" weight="0.22412452" />
       <window_info id="Structure" order="1" sideWeight="0.501355" side_tool="true" weight="0.24959217" />
@@ -242,12 +252,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996109" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996109" visible="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970026" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.6451362" visible="true" weight="0.36173394" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6451362" weight="0.36173394" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003891" side_tool="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32970026" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4996109" weight="0.32735425" />
@@ -457,6 +467,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nParams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
